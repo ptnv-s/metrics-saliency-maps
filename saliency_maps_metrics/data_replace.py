@@ -21,6 +21,5 @@ def select_data_replace_method(replace_method):
     if replace_method in func_dic:
         replace_method_func = func_dic[replace_method]
     else:
-        raise ValueError("Unkown data replacement function",replace_method)
+        raise ValueError("Unkown data replacement function",replace_method,replace_method)
     return replace_method_func
-
