@@ -139,5 +139,3 @@ if __name__ == "__main__":
 
     all_score_list,all_score_masked_list = metric.compute_scores(dic["model"],dic["data"].clone(),dic["expl"].clone(),save_all_class_scores=True)
     print(all_score_list.shape,all_score_masked_list.shape)
-
-    
